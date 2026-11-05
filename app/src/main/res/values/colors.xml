@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Roam VPN palette. The design is dark-only (see the reference UI), so there is one set of colors. -->
+<resources>
+    <color name="primary">#2B7DFF</color>
+    <color name="primaryDark">#0A2A66</color>
+    <color name="accent">#2BE58B</color>
+    <color name="background">#07122B</color>
+    <color name="backgroundEnd">#0B1D44</color>
+    <color name="white">#FFFFFF</color>
+    <color name="textPrimary">#FFFFFF</color>
+    <color name="gray">#8FA3C8</color>
+    <color name="cardBackground">#0E1E45</color>
+    <color name="rowBackground">#12285A</color>
+    <color name="searchBorder">#1C3369</color>
+    <color name="searchBackground">#0E1E45</color>
+    <color name="statusOnline">#2BE58B</color>
+    <color name="statusOffline">#FF5C6C</color>
+    <color name="statusWarn">#FFC107</color>
+    <color name="heroStart">#0B4BDB</color>
+    <color name="iconCircle">#14306B</color>
+    <color name="connectedTint">#0C2E3A</color>
+    <color name="divider">#1A3068</color>
+    <color name="mutedOnPrimary">#BCD3FF</color>
+    <color name="launcherIconBg">#0A3FB5</color>
+    <color name="ringCyan">#27C6FF</color>
+    <color name="ringGreen">#2BE58B</color>
+    <color name="ringBlue">#2B7DFF</color>
+    <color name="ringMuted">#8FA3C8</color>
+    <color name="gold">#FFB800</color>
+    <color name="signalOff">#2A3F6E</color>
+    <color name="splashTop">#0B4BDB</color>
+    <color name="splashBottom">#071A4D</color>
+    <color name="statBlueBg">#0F2A5A</color>
+    <color name="statGreenBg">#0C3A2C</color>
+    <color name="statPurpleBg">#2A2060</color>
+    <color name="statPurple">#A78BFA</color>
+</resources>

@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /adminui
+Disallow: /api/
+
+Sitemap: https://api.fastvpnn.pp.ua/sitemap.xml

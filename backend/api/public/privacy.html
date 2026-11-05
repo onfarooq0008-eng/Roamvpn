@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Roam VPN</title>
+<meta name="description" content="How Roam VPN handles your information: what is collected, what is not, ads, retention and your choices.">
+<meta name="theme-color" content="#050B1A">
+
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#050B1A;--bg2:#08142E;--panel:#0D182E;--line:#1A2A48;--text:#F2F6FF;--muted:#8FA3C4;--blue:#2D8CFF;--cyan:#00E5FF;--green:#22E58B}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'IBM Plex Sans',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background:radial-gradient(1200px 600px at 80% -10%,#0c2350 0%,transparent 60%),linear-gradient(180deg,var(--bg),var(--bg2));background-attachment:fixed;color:var(--text);line-height:1.65;-webkit-font-smoothing:antialiased;min-height:100vh;display:flex;flex-direction:column}
+h1,h2,.wordmark{font-family:'Space Grotesk','IBM Plex Sans',sans-serif;letter-spacing:-.02em}
+a{color:var(--cyan)}
+.wrap{width:min(860px,100% - 32px);margin-inline:auto}
+header{position:sticky;top:0;z-index:5;backdrop-filter:blur(14px);background:rgba(5,11,26,.8);border-bottom:1px solid var(--line)}
+header .row{display:flex;align-items:center;justify-content:space-between;height:64px;gap:12px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--text)}
+.brand img{border-radius:9px}
+.wordmark{font-size:22px;font-weight:700}.wordmark span{color:var(--blue)}
+.back{font-size:14px;color:var(--muted);text-decoration:none}.back:hover{color:var(--text)}
+main{flex:1;padding:36px 0 48px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;margin-bottom:6px}
+.updated{color:var(--muted);font-size:13px;margin-bottom:24px}
+.lead{color:var(--muted);font-size:17px;margin-bottom:24px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:24px clamp(18px,4vw,32px)}
+h2{font-size:19px;margin:28px 0 8px;color:var(--cyan)}
+.card>h2:first-child{margin-top:0}
+p,li{font-size:15.5px;color:#D4DDF0}
+p+p{margin-top:10px}
+ul{padding-left:22px;margin-top:8px}li{margin-top:6px}
+.note{margin-top:18px;padding:14px 16px;border-radius:12px;border:1px solid var(--line);background:rgba(45,140,255,.08);font-size:14.5px}
+.contact{margin-top:28px;padding-top:16px;border-top:1px solid var(--line);font-size:14.5px;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px;margin-top:6px}
+.tile{display:block;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px 18px;text-decoration:none;color:var(--text)}
+.tile:hover{border-color:var(--blue)}.tile b{display:block;font-family:'Space Grotesk',sans-serif;font-size:16px}.tile span{font-size:13.5px;color:var(--muted)}
+.btn{display:inline-block;margin-top:14px;padding:11px 20px;border-radius:12px;background:linear-gradient(90deg,var(--blue),var(--cyan));color:#031020;font-weight:600;text-decoration:none}
+footer{border-top:1px solid var(--line);padding:22px 0 30px;font-size:13.5px;color:var(--muted)}
+footer .links{display:flex;flex-wrap:wrap;gap:6px 18px;margin-bottom:10px}
+footer a{color:var(--muted);text-decoration:none}footer a:hover{color:var(--text)}
+</style>
+</head>
+<body>
+<header><div class="wrap row">
+  <a class="brand" href="/" aria-label="Roam VPN home"><img src="/assets/logo-64.png" alt="" width="34" height="34"><span class="wordmark">Roam<span>VPN</span></span></a>
+  <a class="back" href="/">&larr; Back to home</a>
+</div></header>
+<main><div class="wrap">
+  <h1>Privacy Policy</h1>
+  <div class="updated">Last updated: October 29, 2026</div>
+
+  <div class="card">
+    <p>Roam VPN ("Roam VPN", "we", "us", "the app") is an Android VPN app operated by <strong>Umar Farooq</strong>. This policy explains what information is handled when you use the app and this website, why, and what choices you have. Contact: <a href="mailto:admin@fastvpnn.pp.ua">admin@fastvpnn.pp.ua</a>.</p>
+
+    <h2>1. Information the VPN service handles</h2>
+    <p>To build and keep your encrypted tunnel, the app sends the following to our servers when you connect:</p>
+    <ul>
+      <li><strong>A device encryption key (WireGuard public key).</strong> It is generated on your device. The matching private key never leaves your device and is stored in Android's encrypted storage.</li>
+      <li><strong>An assigned tunnel address</strong> (a private address such as 10.x.x.x) used only to route your traffic through the tunnel.</li>
+      <li><strong>A registration token</strong> that lets the app release its own registration when you disconnect.</li>
+      <li><strong>Basic technical data</strong> that any internet connection involves: your device's public IP address is visible to the VPN server and to our API while the tunnel is being set up and used, because that is how internet connections work.</li>
+      <li><strong>Exit-IP and speed-test requests.</strong> To show your current IP address, the app asks public lookup services (and our API) which address they see. The Speed Test sends and receives test data with speed.cloudflare.com. These services see your IP address like any website you visit; we do not store the results.</li>
+    </ul>
+
+    <h2>2. What we do not collect</h2>
+    <ul>
+      <li>We do not log or store the websites, apps or content you reach through the VPN, DNS queries made through the tunnel, or the traffic itself.</li>
+      <li>We do not require an account, email address, phone number or any other personal details to use the app.</li>
+      <li>We do not sell your personal information.</li>
+    </ul>
+
+    <h2>3. Server and website logs</h2>
+    <p>Like most web services, the servers that run our website and control API may keep standard technical logs (for example IP address, time, requested address and error messages) for security, abuse prevention and troubleshooting. These logs are not used to build a record of what you do through the VPN tunnel, and are rotated by the server's normal log handling.</p>
+
+    <h2>4. Advertising</h2>
+    <p>Roam VPN is free and supported by ads from <strong>Yandex Mobile Ads</strong>: sponsored cards on the Home and Locations screens and an occasional full-screen ad after you disconnect. By tapping "Agree &amp; Continue" on the first screen you accept this policy and the ads. Yandex may collect and use your device's advertising ID and other technical information (such as IP address, device model, OS version and ad interaction data) to select, deliver and measure ads, under <a href="https://yandex.com/legal/privacy/" target="_blank" rel="noopener">Yandex's Privacy Policy</a>. No ad SDK is started until you have accepted the first screen. You can reset your advertising ID or opt out of ad personalization in your Android settings (Settings &rarr; Privacy &rarr; Ads). More detail: <a href="/ads.html">Ads &amp; Third Parties</a>.</p>
+
+    <h2>5. Permissions</h2>
+    <ul>
+      <li><strong>VPN permission</strong> (BIND_VPN_SERVICE): required by Android to create the tunnel.</li>
+      <li><strong>Internet and network state:</strong> to connect and to check that the tunnel really passes traffic.</li>
+      <li><strong>Notifications:</strong> to show the connection status and a Disconnect button.</li>
+      <li><strong>Advertising ID:</strong> used by the ad provider as described above.</li>
+    </ul>
+    <p>The app does not request your location, contacts, files, camera or microphone.</p>
+
+    <h2>6. Split tunneling</h2>
+    <p>If you use the split-tunnel feature, your choice of apps is stored on your device only and is not sent to us.</p>
+
+    <h2>7. Retention</h2>
+    <p>Your device's registration (key and tunnel address) is removed when you disconnect. If the app could not do so (for example the phone lost power), unfinished registrations are removed within about an hour, and any registration unused for 30 days is removed automatically. Server and website logs are kept only as long as needed for the purposes in section 3.</p>
+
+    <h2>8. Sharing</h2>
+    <p>We share information only with: the ad provider described above; hosting and network providers that run our servers; and authorities where the law requires it. Because we do not store your browsing activity, we have none to hand over.</p>
+
+    <h2>9. Your choices and rights</h2>
+    <p>You can disconnect at any time, clear the app's data or uninstall it, and reset your advertising ID in Android settings. Depending on where you live you may have rights to access, correct or delete personal data and to object to certain processing. To use them, or to ask us anything, email <a href="mailto:admin@fastvpnn.pp.ua">admin@fastvpnn.pp.ua</a>. See also <a href="/delete-data.html">Data &amp; Deletion</a>.</p>
+
+    <h2>10. Children</h2>
+    <p>Roam VPN is not directed at children under 13 (or the minimum age in your country), and we do not knowingly collect their information. If you believe a child has used the app, contact us and we will help.</p>
+
+    <h2>11. Security</h2>
+    <p>Traffic between your device and the VPN server is encrypted with WireGuard. We take reasonable steps to protect our servers, but no system is completely secure.</p>
+
+    <h2>12. International transfers</h2>
+    <p>Our servers and the ad provider may be located in other countries than yours, so information may be processed abroad.</p>
+
+    <h2>13. Changes</h2>
+    <p>We may update this policy. The date at the top shows the latest version; material changes will be noted on this page.</p>
+    <div class="contact">Questions about this policy? Email <a href="mailto:admin@fastvpnn.pp.ua">admin@fastvpnn.pp.ua</a> (Umar Farooq).</div>
+  </div>
+</div></main>
+<footer><div class="wrap">
+  <div class="links"><a href="/privacy.html">Privacy Policy</a><a href="/terms.html">Terms of Service</a><a href="/ads.html">Ads &amp; Third Parties</a><a href="/delete-data.html">Data &amp; Deletion</a><a href="/disclaimer.html">Disclaimer</a><a href="/about.html">About</a><a href="/contact.html">Contact</a></div>
+  <div>&copy; <span id="year">2026</span> Roam VPN &middot; Operated by Umar Farooq &middot; <a href="mailto:admin@fastvpnn.pp.ua">admin@fastvpnn.pp.ua</a></div>
+</div></footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>

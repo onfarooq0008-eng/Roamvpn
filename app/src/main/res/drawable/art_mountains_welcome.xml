@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Welcome-screen landscape: far peaks, near peaks, lake and pine forest. Drawn natively. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="360dp" android:height="300dp" android:viewportWidth="360" android:viewportHeight="300">
+    <path android:fillColor="#8FA9D6" android:pathData="M0,150 L45,95 L80,125 L130,50 L185,120 L225,80 L270,128 L318,70 L360,118 L360,300 L0,300 Z"/>
+    <path android:fillColor="#E9F1FF" android:pathData="M130,50 L112,76 L124,72 L132,82 L142,70 L150,78 Z M318,70 L302,92 L312,88 L320,96 L330,86 Z"/>
+    <path android:fillColor="#5F7FB8" android:pathData="M0,190 L55,135 L105,175 L165,110 L225,178 L285,130 L335,170 L360,150 L360,300 L0,300 Z"/>
+    <path android:fillColor="#3C6FA5" android:pathData="M0,236 C60,226 120,232 180,228 C240,224 300,232 360,226 L360,300 L0,300 Z"/>
+    <path android:fillColor="#133B5C" android:pathData="M0,258 L360,258 L360,300 L0,300 Z"/>
+    <path android:fillColor="#133B5C" android:pathData="M-6,258 l12,-46 l12,46 z M6,257 l8,-34 l8,34 z M21,261 l8,-34 l8,34 z M34,264 l8,-34 l8,34 z M44,257 l8,-34 l8,34 z M56,257 l13,-52 l13,52 z M66,264 l8,-34 l8,34 z M78,265 l8,-34 l8,34 z M87,266 l10,-40 l10,40 z M101,265 l8,-34 l8,34 z M114,256 l13,-52 l13,52 z M124,264 l8,-34 l8,34 z M139,260 l10,-40 l10,40 z M151,264 l10,-40 l10,40 z M160,264 l12,-46 l12,46 z M175,257 l10,-40 l10,40 z M188,261 l10,-40 l10,40 z M197,265 l8,-34 l8,34 z M206,263 l10,-40 l10,40 z M220,268 l13,-52 l13,52 z M231,265 l13,-52 l13,52 z M243,260 l12,-46 l12,46 z M253,267 l10,-40 l10,40 z M268,257 l10,-40 l10,40 z M281,264 l12,-46 l12,46 z M293,267 l12,-46 l12,46 z M305,265 l12,-46 l12,46 z M314,264 l8,-34 l8,34 z M326,268 l10,-40 l10,40 z M337,263 l10,-40 l10,40 z M349,266 l8,-34 l8,34 z M358,261 l12,-46 l12,46 z"/>
+    <path android:fillColor="#0B2A44" android:pathData="M0,280 L360,280 L360,300 L0,300 Z"/>
+</vector>

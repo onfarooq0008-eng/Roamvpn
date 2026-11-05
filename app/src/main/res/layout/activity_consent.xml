@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_app">
+
+    <LinearLayout
+        android:id="@+id/consentContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:paddingStart="8dp" android:paddingEnd="8dp">
+            <ImageButton
+                android:id="@+id/buttonClose"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="end|center_vertical"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="Decline and close the app"
+                android:src="@drawable/ic_close"
+                app:tint="@color/gray" />
+        </FrameLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fillViewport="true"
+            android:scrollbars="none">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:paddingStart="24dp" android:paddingEnd="24dp"
+                android:paddingBottom="16dp">
+
+                <ImageView
+                    android:layout_width="76dp"
+                    android:layout_height="76dp"
+                    android:importantForAccessibility="no"
+                    android:src="@drawable/logo_shield" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    android:text="Your Privacy Matters"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:text="Roam VPN protects your connection with a WireGuard tunnel. Here is what that means in practice."
+                    android:textColor="@color/mutedOnPrimary"
+                    android:textSize="15sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="22dp"
+                    android:background="@drawable/bg_card"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+                    <include layout="@layout/view_feature_row" android:id="@+id/featureEncrypt" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                    <include layout="@layout/view_feature_row" android:id="@+id/featureIp" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                    <include layout="@layout/view_feature_row" android:id="@+id/featureLogs" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                    <include layout="@layout/view_feature_row" android:id="@+id/featureVerified" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:gravity="center"
+                    android:lineSpacingExtra="3dp"
+                    android:text="We collect only what is needed to run the VPN: your device's public encryption key and an assigned tunnel address. Roam VPN is free and supported by ads from Yandex Mobile Ads (cards on the Home and Locations screens and a full-screen ad after you disconnect). To show your IP address and run the Speed Test, the app contacts public lookup and speed-test services. Yandex may use your device's advertising ID to show them. By tapping Agree &amp; Continue you accept this, the Privacy Policy and the Terms."
+                    android:textColor="@color/gray"
+                    android:textSize="13sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/linkPrivacy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:gravity="center"
+                        android:paddingStart="8dp" android:paddingEnd="8dp"
+                        android:text="Privacy Policy"
+                        android:textColor="@color/primary"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="&amp;"
+                        android:textColor="@color/gray"
+                        android:textSize="14sp" />
+                    <TextView
+                        android:id="@+id/linkTerms"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:gravity="center"
+                        android:paddingStart="8dp" android:paddingEnd="8dp"
+                        android:text="Terms of Service"
+                        android:textColor="@color/primary"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonAgree"
+            style="@style/Widget.RoamVPN.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp" android:layout_marginEnd="24dp"
+            android:layout_marginBottom="24dp"
+            android:text="Agree &amp; Continue" />
+    </LinearLayout>
+</FrameLayout>
